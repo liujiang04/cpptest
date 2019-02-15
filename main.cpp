@@ -1,6 +1,8 @@
 #include <iostream>
 #include <map>
 #include <string>
+#include <time.h>
+#include <ctime>
 #include "test/test.h"
 #include "test/for_name.h"
 #include "test/ifSwitch.h"
