@@ -6,7 +6,7 @@
 #include "test/test.h"
 #include "test/for_name.h"
 #include "test/ifSwitch.h"
-
+#include "test/number/float2.h"
 using namespace std;
 // 函数声明
 
@@ -68,5 +68,7 @@ int main() {
     dt = asctime(gmtm);
     cout << "UTC 日期和时间："<< dt << endl;
 
+
+    funcFloat();
     return 0;
 }
